@@ -1,6 +1,7 @@
 import { Ex01ButtonSystem } from "./exercises/Ex01ButtonSystem";
 import { Ex02BadgeAvatar } from "./exercises/Ex02BadgeAvatar";
 import { Ex03ProfileCard } from "./exercises/Ex03ProfileCard";
+import { Ex04ProductCard } from "./exercises/Ex04ProductCard";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Ex01ButtonSystem />
       <Ex02BadgeAvatar />
       <Ex03ProfileCard />
+      <Ex04ProductCard />
     </main>
   );
 }
