@@ -12,9 +12,10 @@ export function Button({
   variant = "primary",
   disabled = false,
   type = "button",
+  className = "",
 }) {
   const baseClasses =
-    "inline-flex h-11 min-w-[135px] cursor-pointer items-center justify-center rounded-xl px-5 text-sm font-semibold transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500";
+    "inline-flex h-11 min-w-[120px] cursor-pointer items-center justify-center rounded-xl px-5 text-sm font-semibold transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500";
 
   const variantClasses = variants[variant] || variants.primary;
 
@@ -22,7 +23,7 @@ export function Button({
     <button
       type={type}
       disabled={disabled}
-      className={`${baseClasses} ${variantClasses}`}
+      className={`${baseClasses} ${variantClasses} ${className}`}
     >
       {children}
     </button>
