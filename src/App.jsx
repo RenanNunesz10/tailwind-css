@@ -7,6 +7,7 @@ import { Ex06KpiCard } from "./exercises/Ex06KpiCard";
 import { Ex07PricingCard } from "./exercises/Ex07PricingCard";
 import { Ex08AlertNotification } from "./exercises/Ex08AlertNotification";
 import { Ex09ResponsiveNavbar } from "./exercises/Ex09ResponsiveNavbar";
+import { Ex10MiniDashboard } from "./exercises/Ex10MiniDashboard";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Ex07PricingCard />
       <Ex08AlertNotification />
       <Ex09ResponsiveNavbar />
+      <Ex10MiniDashboard />
     </main>
   );
 }
