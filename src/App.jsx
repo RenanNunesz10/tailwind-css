@@ -6,6 +6,7 @@ import { Ex05LoginForm } from "./exercises/Ex05LoginForm";
 import { Ex06KpiCard } from "./exercises/Ex06KpiCard";
 import { Ex07PricingCard } from "./exercises/Ex07PricingCard";
 import { Ex08AlertNotification } from "./exercises/Ex08AlertNotification";
+import { Ex09ResponsiveNavbar } from "./exercises/Ex09ResponsiveNavbar";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Ex06KpiCard />
       <Ex07PricingCard />
       <Ex08AlertNotification />
+      <Ex09ResponsiveNavbar />
     </main>
   );
 }
