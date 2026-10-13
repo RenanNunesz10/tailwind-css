@@ -6,7 +6,7 @@ const variants = {
 
 const sizes = {
   sm: "h-10 w-10 text-sm",
-  md: "h-14 w-14 text-lg", // 56x56px (tamanho base)
+  md: "h-14 w-14 text-lg",
   lg: "h-16 w-16 text-xl",
 };
 

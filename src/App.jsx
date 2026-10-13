@@ -3,6 +3,7 @@ import { Ex02BadgeAvatar } from "./exercises/Ex02BadgeAvatar";
 import { Ex03ProfileCard } from "./exercises/Ex03ProfileCard";
 import { Ex04ProductCard } from "./exercises/Ex04ProductCard";
 import { Ex05LoginForm } from "./exercises/Ex05LoginForm";
+import { Ex06KpiCard } from "./exercises/Ex06KpiCard";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Ex03ProfileCard />
       <Ex04ProductCard />
       <Ex05LoginForm />
+      <Ex06KpiCard />
     </main>
   );
 }

@@ -15,7 +15,6 @@ export function Ex05LoginForm() {
         </h2>
         <p className="mt-2 text-sm text-slate-500">Sign in to continue</p>
 
-        {/* Como é estático, form sem onSubmit e input sem onChange */}
         <form className="mt-6 space-y-5">
           <InputField
             id="email"
