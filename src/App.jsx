@@ -4,6 +4,7 @@ import { Ex03ProfileCard } from "./exercises/Ex03ProfileCard";
 import { Ex04ProductCard } from "./exercises/Ex04ProductCard";
 import { Ex05LoginForm } from "./exercises/Ex05LoginForm";
 import { Ex06KpiCard } from "./exercises/Ex06KpiCard";
+import { Ex07PricingCard } from "./exercises/Ex07PricingCard";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Ex04ProductCard />
       <Ex05LoginForm />
       <Ex06KpiCard />
+      <Ex07PricingCard />
     </main>
   );
 }
